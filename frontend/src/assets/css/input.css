@@ -1,0 +1,81 @@
+/* vue-select */
+
+.dropdown-toggle {
+    background-color: #18181f;
+    background-image: none;
+    border-radius: 0.375rem;
+    color: #b3b3b3;
+    font-weight: 400;
+    margin: 0;
+    transition: color .3s cubic-bezier(.07, .95, 0, 1);
+}
+
+.dropdown-toggle:hover {
+    background-color: #18181f;
+    color: #27ffa7;
+}
+
+.dropdown-menu {
+    background-color: #18181f;
+    border: 0;
+    border-top: 1px solid #3a3a42;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.dropdown-menu > li > a {
+    color: #b3b3b3;
+    font-weight: 500;
+    transition: all .3s cubic-bezier(.07, .95, 0, 1);
+}
+
+.dropdown-menu > li > a:hover {
+    background-color: #27ffa7;
+    color: #18181f;
+}
+
+/* vue slider*/
+
+.vue-slider-rail {
+    background-color: #18181f;
+}
+
+.vue-slider:hover .vue-slider-rail {
+    background-color: #18181f;
+}
+
+.vue-slider:hover .vue-slider-dot-handle {
+    border-color: transparent;
+    opacity: 1;
+}
+
+.vue-slider:hover .vue-slider-dot-handle:hover {
+    border-color: transparent;
+}
+
+.vue-slider-dot-handle {
+    background-color: #cbccd2;
+    border-color: transparent;
+    opacity: 0;
+    transition: all .6s cubic-bezier(.07, .95, 0, 1);
+}
+
+.slider-blue .vue-slider-dot-handle:hover,
+.slider-pink .vue-slider-dot-handle:hover,
+.slider-yellow .vue-slider-dot-handle:hover {
+    border-color: transparent;
+}
+
+
+.vue-slider-dot-handle:hover,
+.vue-slider-process,
+.vue-slider:hover .vue-slider-process,
+.vue-slider-dot-handle {
+    background-color: #27ffa7;
+}
+
+.vue-slider-dot-tooltip-inner {
+    background-color: #18181f;
+    border-color: #18181f;
+    color: #f4f5f9;
+}

@@ -1,0 +1,37 @@
+@import url('animations.css');
+@import url('buttons.css');
+@import url('input.css');
+@import url('tooltip.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#app {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #b3b3b3;
+}
+
+* {
+    user-select: none;
+}
+
+html {
+    background-color: #18181f;
+    background-size: 20px 20px;
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    scrollbar-base-color: #18181f;
+    scrollbar-face-color: #212128;
+    scrollbar-3dlight-color: #18181f;
+    scrollbar-highlight-color: #18181f;
+    scrollbar-track-color: #18181f;
+    scrollbar-arrow-color: #18181f;
+    scrollbar-shadow-color: #212128;
+    height: 100%;
+}

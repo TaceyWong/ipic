@@ -1,0 +1,60 @@
+.fade-enter-active, .fade-leave-active {
+    transition: opacity 600ms cubic-bezier(.07, .95, 0, 1);
+}
+
+.fade-enter, .fade-leave-to {
+    opacity: 0;
+}
+
+.fade-fast-enter-active, .fade-fast-leave-active {
+    transition: opacity 200ms ease-in-out;
+}
+
+.fade-fast-enter, .fade-fast-leave-to {
+    opacity: 0;
+}
+
+.fade-list-enter-active, .fade-list-leave-active {
+    transition: all 1.2s ease-in-out;
+}
+
+.fade-list-enter, .fade-list-leave-to {
+    opacity: 0;
+    transform: translateX(3rem);
+}
+
+.fade-list-move {
+    transition: all 1s ease-in-out;
+}
+
+.ta {
+    transition: all .3s cubic-bezier(.07, .95, 0, 1);
+}
+
+.ta-slow {
+    transition: all 1s cubic-bezier(.07, .95, 0, 1);
+}
+
+.ta-color {
+    transition: color .3s cubic-bezier(.07, .95, 0, 1);
+}
+
+.ta-color-slow {
+    transition: color 1s cubic-bezier(.07, .95, 0, 1);
+}
+
+.anime-txt-success {
+    animation: txt-success 600ms ease-in-out forwards;
+}
+
+@keyframes txt-success {
+    0% {
+        color: #b3b3b3;
+    }
+    50% {
+        color: #27ffa7;
+    }
+    100% {
+        color: #b3b3b3;
+    }
+}
