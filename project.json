@@ -1,0 +1,22 @@
+{
+  "name": "iPic",
+  "description": "Image conversion and compression. Supports WebP, JPEG, and PNG.",
+  "author": {
+    "name": "Tacey Wong",
+    "email": "xinyong.wang@qq.com"
+  },
+  "version": "0.0.1-dev",
+  "binaryname": "ipic",
+  "frontend": {
+    "dir": "frontend",
+    "install": "npm install",
+    "build": "npm run build",
+    "bridge": "src",
+    "serve": "npm run serve"
+  },
+  "WailsVersion": "1.16.7",
+  "CrossCompile": false,
+  "Platform": "",
+  "Architecture": "",
+  "LdFlags": ""
+}
