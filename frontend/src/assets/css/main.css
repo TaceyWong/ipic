@@ -18,6 +18,10 @@
     user-select: none;
 }
 
+input {
+    user-select: auto;
+}
+
 html {
     background-color: #18181f;
     background-size: 20px 20px;
